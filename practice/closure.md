@@ -4,6 +4,11 @@
 
 ```js
 // Your code goes here
+// function multiplyBy(number) {
+//   return 
+
+
+// }
 
 const double = multiplyBy(2);
 const final = double(15); // final should be 30
