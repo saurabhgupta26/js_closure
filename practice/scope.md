@@ -181,7 +181,7 @@ if (true) {
 }
 console.log(name);
 Output: Arya Stark
-Because 
+Because var is accessible in the whole program, even outside the function. hence, the function will print Arya Stark
 ```
 
 15. Guess the output of the code below with a reason.
@@ -192,6 +192,7 @@ if (true) {
 }
 console.log(name);
 Output: <empty string>
+Because the scope of let is in the function's parenthesis and not outside it. Hence, empty string.
 ```
 
 16. Guess the output of the code below with a reason.
