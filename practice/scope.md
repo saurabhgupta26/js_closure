@@ -8,6 +8,7 @@ const lastName = "Stark";
 var knownAs = "no one";
 
 console.log(window.firstName, window.lastName, window.knownAs);
+output: undefined undefined no one
 ```
 
 2. Guess the output:
@@ -22,39 +23,46 @@ function fullName(a, b) {
 }
 
 console.log(window.fullName(firstName, lastName));
+output: AryaStark
+
 ```
 
 3. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
-fucntion addOne(num){
+function addOne(num){
   return num + 1;
 }
 var one = addOne(0);
 var two = addOne(1);
 console.log(one, two);
+output: 1 2
 ```
 
 4. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
 var one = addOne(0);
-fucntion addOne(num){
+function addOne(num){
   return num + 1;
 }
 var two = addOne(1);
 console.log(one, two);
+output: 1 2
 ```
 
 5. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
 console.log(addOne(0));
-fucntion addOne(num){
+function addOne(num){
   return num + 1;
 }
 var two = addOne(1);
 console.log(two);
+output: 
+1
+2
 ```
 
 6. Make a Execution Context Diagram for the following JS and write the output.
@@ -66,6 +74,7 @@ const addOne = num => {
 };
 var two = addOne(1);
 console.log(two);
+output: can't reach lexical declaration
 ```
 
 7. Make a Execution Context Diagram for the following JS and write the output.
@@ -77,6 +86,7 @@ const addOne = num => {
 };
 var two = addOne(1);
 console.log(two);
+output: can't reach lexical declaration
 ```
 
 8. What will be the output of the following
@@ -90,6 +100,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+Output: undefined
 ```
 
 9. What will be the output of the following
@@ -103,6 +114,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+Output: true
 ```
 
 10. What will be the output of the following
@@ -116,6 +128,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+Output: 
 ```
 
 11. What will be the output of the following
@@ -130,6 +143,7 @@ function fullName(a, b) {
 }
 const name = fullName(firstName, lastName);
 console.log(name);
+Output: AryaStark
 ```
 
 12. What will be the output of the following
@@ -144,6 +158,7 @@ function fullName(a, b) {
 }
 const name = fullName(firstName, lastName);
 console.log(name);
+Output: AryaStark
 ```
 
 13. Guess the output of the code below with a reason.
@@ -153,8 +168,9 @@ function sayHello() {
   let name = "Arya Stark";
 }
 sayHello();
-
 console.log(name);
+Output: <empty string>
+Because the scope of let is in the sayHello function only.
 ```
 
 14. Guess the output of the code below with a reason.
@@ -164,6 +180,8 @@ if (true) {
   var name = "Arya Stark";
 }
 console.log(name);
+Output: Arya Stark
+Because 
 ```
 
 15. Guess the output of the code below with a reason.

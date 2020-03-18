@@ -1,6 +1,6 @@
 # Higher Order Function
 
-1. Go through the chanpter [05](https://eloquentjavascript.net/05_higher_order.html) of eloquent javaScript
+1. Go through the chapter [05](https://eloquentjavascript.net/05_higher_order.html) of eloquent javaScript
 2. Complete the [exercise](https://eloquentjavascript.net/05_higher_order.html#h_TcUD2vzyMe) and put the solution in `exercise.js` file.
 
 ### Flattening
